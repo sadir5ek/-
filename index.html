@@ -16,8 +16,8 @@
 </head>
 <body>
 <header>
-    <div class="w-[1920px] m-auto">
-    <div class="flex ">
+    <div class="w-[1920px] m-auto ">
+    <div class="flex w-[1920px] m-auto fixed z-10">
         <div class="flex items-center ml-[160px]">
             <img src="./img/metal logo.svg" alt="" class="">
             <img src="./img/ll.svg" alt="" class="ml-[30px]">
@@ -31,9 +31,10 @@
         </div>
 
         <div class="flex items-center ml-[100px]">
-            <button class="border-[2px] w-[61px] h-[61px] rounded-[50px] bg-[#FFC400]">PDF</button>
-            <p class="ml-[20px]">Скачать прайс-лист</p>
-
+           <a href="./pages/prislist.html">
+             <button class=" w-[61px] h-[61px] rounded-[50px] bg-[#FFC400]">PDF</button>
+           </a>
+           <p class="ml-[20px]">Скачать прайс-лист</p>
             <button class="border-[2px] w-[284px] h-[61px] rounded-[50px] bg-[#FFC400] ml-[70px]">Посмотреть каталог товаров</button>
         </div>
 
@@ -43,16 +44,16 @@
             <p class="ml-[15px]">Задайте вопрос  online</p>
         </div>
            <div class="flex gap-[18px] mt-[16px]">
-          <a href="https://web.whatsapp.com/"><img src="./img/WhatsApp.svg" alt=""></a>  
-           <a href="https://web.telegram.org/k/"><img src="./img/Telegram.svg" alt=""></a> 
-           <a href="https://vk.com/"><img src="./img/vk 1.svg" alt=""></a> 
+          <a href="./pages/whatsapp.html"><img src="./img/WhatsApp.svg" alt=""></a>  
+           <a href="./pages/telegram.html"><img src="./img/Telegram.svg" alt=""></a> 
+           <a href="./pages/vkantake.html"><img src="./img/vk 1.svg" alt=""></a> 
            </div> 
         </div>
 
-        <div class="ml-[100px]">
-           <h6 class="text-[25px]">+(996) 554 478 444</h6>
-            <p class="underline decoration-black-500 ml-[40px]">Перезвоним Вам</p>
-        </div>
+        <a href="./pages/perzvanite.html"><div class="ml-[100px]">
+            <h6 class="text-[25px]">+(996) 554 478 444</h6>
+             <p class="underline decoration-black-500 ml-[40px]">Перезвоним Вам</p>
+         </div></a>
     </div>
     </div>
 </header>
@@ -65,24 +66,23 @@
 <p class="absolute left-[160px] bottom-[280px] font-bold   Weight-[300]  text-[20px]">За 1 минуту пройдите тест и <span class="span">рассчитайте <br> стоимость кровли</span>  под ваш объект <br> с точностью 97% и получите подарки</p>
 <button class="border-[2px] w-[461px] h-[95px] rounded-[50px] bg-[#FFC400] text-[18px]  absolute left-[160px] bottom-[120px]">РАССЧИТАТЬ СТОИМОСТЬ МАТЕРИАЛОВ</button>
 
-<div class="w-[110px] h-[105px] bg-[#FF9900] rounded-[8px] absolute bottom-[523px] right-0">
+<a href="./pages/conkulator.html"> <div class="w-[110px] h-[105px] bg-[#FF9900] rounded-[8px]  bottom-[523px] fixed z-10 left-[1860px] ">
 <img src="./img/Vector.svg" alt="" class="ml-[35px] mt-[10px]">
 <h3 class="text-white ml-[10px] mt-[10px]">Произвести</h3>
 <h4 class="text-white text-senter ml-[28px]">расчет</h4>
-</div>
+</div></a>
 
-<div class="w-[110px] h-[105px] bg-[#FF9900] rounded-[8px] absolute bottom-[405px] right-0">
+ <a href="./pages/prislist.html"><div class="w-[110px] h-[105px] bg-[#FF9900] rounded-[8px]  bottom-[405px]  fixed z-10 left-[1860px]">
 <img src="./img/Layer 2.svg" alt="" class="ml-[35px] mt-[10px]">
 <h4 class="text-white text-senter ml-[28px]">Скачать</h4>
  <h3 class="text-white ml-[15px] "> прайс-лист</h3>
+ </div></a>
 
- </div>
-
- <div class="w-[110px] h-[105px] bg-[#FF9900] rounded-[8px] absolute bottom-[287px] right-0">
+ <a href="./pages/perzvanite.html"><div class="w-[110px] h-[105px] bg-[#FF9900] rounded-[8px]  bottom-[287px] fixed z-10 left-[1860px]">
 <img src="./img/phone.svg" alt="" class="ml-[35px] mt-[10px]">
 <h3 class="text-white ml-[7px] mt-[5px]">Перезвоните</h3>
 <h4 class="text-white text-senter ml-[40px]"> мне</h4>
-</div>
+</div></a>
 
 </div>
 </div>
@@ -108,7 +108,10 @@
 <h3 class="text-[#1F2533] text-[43px] font-bold ml-[560px]">стоимость кровли под ваш объект </h3>
 <h3 class="text-[#1F2533] text-[43px] font-bold ml-[735px]">с точностью 97%</h3>
 
-<div class="w-[1570px] h-[770px] border-[4px] rounded-[22px] ml-[175px] mt-[60px] flex bg-[#FFFFFF] z-10">
+ <img src="./img/list 1.svg" alt="" class="absolute top-[500px] left-0 ">
+<img src="./img/list2.svg" alt="" class=" absolute bottom-[150px] right-0"> 
+
+<div class="w-[1570px] h-[770px] border-[4px] rounded-[22px] ml-[175px] mt-[60px] flex bg-[#FFFFFF]  relative">
 <div>
     <img src="./img/input.svg" alt="" class="ml-[20px] mt-[40px]">
     <h5 class="ml-[35px] text-[28px] mt-[35px]"> <span class="span">Вопрос 1 из 6:</span> Выберите тип Вашей крыши</h5>
@@ -164,10 +167,9 @@
 
 </div>
 </div>
-<div class="">
- <!-- <img src="./img/list 1.svg" alt="" class="absolute top-[500px] left-0 "> -->
-<img src="./img/list2.svg" alt="" class="absolute bottom-[150px] right-0"> 
-</div>
+
+
+
 
 </div>
 </div>
@@ -175,7 +177,7 @@
  <section4>
     <div class="w-[1920px] m-auto">
 <div class="mt-[50px]">
-    <h1 class="text-[#FF9900] text-[60px] ml-[175px] mt-[40px]">КАТАЛОГ ТОВАРОВ</h1>
+    <h1 class="text-[#FF9900] text-[60px]  ml-[175px] mt-[40px]">КАТАЛОГ ТОВАРОВ</h1>
     <div class="flex ml-[175px] mt-[40px] ">
         <button class="border-[1px] w-[173px] h-[50px] rounded-[60px] bg-[#FFC400] text-[18px]  ">Все материалы</button>
         <button class="border-[2px] border-[#FFC400] w-[198px] h-[50px] rounded-[60px]  text-[18px] ml-[30px] ">Металлочерепица</button>
@@ -183,12 +185,27 @@
         <button class="border-[2px] border-[#FFC400] w-[210px] h-[50px] rounded-[60px]  text-[18px] ml-[30px] ">Фальцевая кровля</button> 
     </div>
 
-    <div class="w-[1569px] h-[1883px] m-auto border-[2px] mt-[50px]">
+    <div class="w-[1569px] h-[1883px] m-auto border-[2px] mt-[40px]">
         <h2 class="text-[44px] text-[#4B4A53]">МЕТАЛЛОЧЕРЕПИЦА</h2>
-        <div id="sad">
+        <div id="sad" class="flex flex-wrap justify-between gap-[20px] mt-[30px] ">
 
+         
         </div>
     </div>
+
+    <div class="w-[1569px] h-[1883px] m-auto border-[2px] mt-[40px] ">
+        <h2 class="text-[44px] text-[#4B4A53]">Профнастил</h2>
+        <div id="dir" class="flex flex-wrap justify-between gap-[20px] mt-[30px] ">
+
+    </div>
+</div>
+
+<div class="w-[1569px] h-[1883px] m-auto border-[2px] mt-[40px] ">
+    <h2 class="text-[44px] text-[#4B4A53]">Фальцевая кровля</h2>
+    <div id="bek" class="flex flex-wrap justify-between gap-[20px] mt-[30px] ">
+    </div>
+
+</div>
 </div>
     </div>
  </section4>
@@ -207,7 +224,9 @@
 <div>
     <h2 class="text-[54px] text-[#1B2836] mt-[70px]">ЕСТЬ ВОПРОСЫ?</h2>
     <p class="text-[20px] text-[#69686F] mt-[20px]">Если у Вас есть вопросы или требуется помощь <br> в подборе кровельных материалов, то оставьте свои <br> данные, мы свяжемся с Вами и проконсультируем.</p>
+   <a href="./pages/pconsultacia.html">
     <button class="border-[2px] w-[273px] h-[75px] rounded-[50px] bg-[#FFC400] text-[18px] mt-[60px] ">Получить консультацию</button>
+   </a> 
 </div>
 
 <div class="flex mt-[40px]">
@@ -278,7 +297,7 @@
             </div>
     
             <div class="flex items-center ml-[150px]">
-                <button class="border-[2px] w-[61px] h-[61px] rounded-[50px] bg-[#FFC400]">PDF</button>
+               <a href="./pages/prislist.html"><button class="border-[2px] w-[61px] h-[61px] rounded-[50px] bg-[#FFC400]">PDF</button></a> 
                 <p class="ml-[20px]">Скачать прайс-лист</p>
     
                 <button class="border-[2px] w-[284px] h-[61px] rounded-[50px] bg-[#FFC400] ml-[90px]">Посмотреть каталог товаров</button>
@@ -290,9 +309,9 @@
                 <p class="ml-[15px]">Задайте вопрос  online</p>
             </div>
                <div class="flex gap-[18px] mt-[16px]">
-              <a href="https://web.whatsapp.com/"><img src="./img/WhatsApp.svg" alt=""></a>  
-               <a href="https://web.telegram.org/k/"><img src="./img/Telegram.svg" alt=""></a> 
-               <a href="https://vk.com/"><img src="./img/vk 1.svg" alt=""></a> 
+              <a href="./pages/whatsapp.html"><img src="./img/WhatsApp.svg" alt=""></a>  
+               <a href="./pages/telegram.html"><img src="./img/Telegram.svg" alt=""></a> 
+               <a href="./pages/vkantake.html"><img src="./img/vk 1.svg" alt=""></a> 
                </div> 
             </div>
     
@@ -305,6 +324,6 @@
         <p class="ml-[760px] mt-[10px] text-[#44444E]">Copyright © 2010 - 2022 | ООО «СУПЕРМЕТ»</p>
         </div>
 </footer>
-    <script src="./app.js"></script>
+    <script type="module" src="./app.js"></script>
 </body>
 </html>
