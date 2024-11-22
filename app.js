@@ -1,16 +1,15 @@
 
 
 import {data, krov, metal, prof} from "./data.js";
-
 console.log(data);
 
 
-const sss = document.querySelector('#sss')
 
+const sss = document.querySelector('#sss')
 data.forEach((item) => {
     const talList = document.createElement('div');
     talList.innerHTML = `
-<div class=' shadow-2xl w-[496px] h-[330px] mt-[30px] px-[80px] py-[40px] rounded-[14px] '>
+<div class=' shadow-2xl w-[496px] h-[330px] mt-[30px] px-[80px] hover:bg-[#F1F1F1] cursor-pointer  py-[40px] rounded-[14px] '>
      <img class="w-[60px]" src="${item.img}">
      <h1 class="my-[20px] text-[24px] text-[#4B4A53]">${item.name}</h1>
      <p class="text-[18px] text-[#69686F]"> ${item.text}</p>
@@ -20,11 +19,12 @@ data.forEach((item) => {
 });
 
 
+
 const sad = document.querySelector('#sad')
 metal.forEach((metal) => {
     const talList = document.createElement('div');
     talList.innerHTML = `
- <div class="w-[362px] h-[880px] border-[4px] bg-[#FAFAFA] ">
+ <div class="w-[362px] h-[880px] hover:bg-[#F1F1F1] cursor-pointer border-[4px] bg-[#FAFAFA] ">
                 <img src="${metal.img1}" >
                 <h2 class="text-[22px] font-bold ml-[30px] mt-[35px]">${metal.name1}</h2>
                 <div class="flex ml-[30px] mt-[15px]">
@@ -66,12 +66,14 @@ metal.forEach((metal) => {
                         <option value="">${metal.vallie3} </option>
                       </select>
                 </div>
-                <button class="border-[1px] w-[216px] h-[49px] rounded-[60px] bg-[#FFC400] text-[18px] ml-[30px] mt-[25px]  ">${metal.button} </button>  
+               <a href="#section3"> <button  class="border-[1px] w-[216px] h-[49px] rounded-[60px] bg-[#FFC400] text-[18px] ml-[30px] mt-[25px]  ">${metal.button} </button>  </a>
                 <button class="border-[2px] border-[#FFC400] w-[206px] h-[49px] rounded-[60px]  text-[18px] ml-[30px] mt-[25px] ">${metal.buttonn} </button>  
             </div>
     `;
     sad.appendChild(talList)
 });
+
+
 
 
 // const prof = [
@@ -106,11 +108,13 @@ metal.forEach((metal) => {
 //     },
 // ]
 
+
+
 const dir = document.querySelector('#dir')
 prof.forEach((prof) => {
     const talList = document.createElement('div');
     talList.innerHTML = `
- <div class="w-[362px] h-[880px] border-[4px] bg-[#FAFAFA] ">
+ <div class="w-[362px] h-[880px] hover:bg-[#F1F1F1] cursor-pointer border-[4px] bg-[#FAFAFA] ">
                 <img src="${prof.imgg}" >
                 <h2 class="text-[22px] font-bold ml-[30px] mt-[35px]">${prof.name2}</h2>
                 <div class="flex ml-[30px] mt-[15px]">
@@ -152,13 +156,15 @@ prof.forEach((prof) => {
                         <option value="">${prof.vallie33} </option>
                       </select>
                 </div>
-                <button class="border-[1px] w-[216px] h-[49px] rounded-[60px] bg-[#FFC400] text-[18px] ml-[30px] mt-[25px]  ">${prof.buttonn} </button>  
+          <a href="#section3"><button class="border-[1px] w-[216px] h-[49px] rounded-[60px] bg-[#FFC400] text-[18px] ml-[30px] mt-[25px]  ">${prof.buttonn} </button> </a> 
                 <button class="border-[2px] border-[#FFC400] w-[206px] h-[49px] rounded-[60px]  text-[18px] ml-[30px] mt-[25px] ">${prof.buttonnn} </button>  
             </div>
 
     `;
     dir.appendChild(talList)
 });
+
+
 
 // const krov = [
 //     {
@@ -192,11 +198,13 @@ prof.forEach((prof) => {
 //     },
 // ];
 
+
+
 const bek = document.querySelector('#bek')
 krov.forEach((krov) => {
     const talList = document.createElement('div');
     talList.innerHTML = `
-    <div class="w-[362px] h-[880px] border-[4px] bg-[#FAFAFA] ">
+    <div class="w-[362px] hover:bg-[#F1F1F1] cursor-pointer h-[880px] border-[4px] bg-[#FAFAFA] ">
                 <img src="${krov.img9}" >
                 <h2 class="text-[22px] font-bold ml-[30px] mt-[35px]">${krov.name9}</h2>
                 <div class="flex ml-[30px] mt-[15px]">
@@ -238,7 +246,7 @@ krov.forEach((krov) => {
                         <option value="">${krov.valliee29} </option>
                       </select>
                 </div>
-                <button class="border-[1px] w-[216px] h-[49px] rounded-[60px] bg-[#FFC400] text-[18px] ml-[30px] mt-[25px]  ">${krov.button9} </button>  
+                <a href="#section3"><button class="border-[1px] w-[216px] h-[49px] rounded-[60px] bg-[#FFC400] text-[18px] ml-[30px] mt-[25px]  ">${krov.button9} </button>  </a>
                 <button class="border-[2px] border-[#FFC400] w-[206px] h-[49px] rounded-[60px]  text-[18px] ml-[30px] mt-[25px] ">${krov.button19} </button>  
             </div>
 
