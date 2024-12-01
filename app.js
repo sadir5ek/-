@@ -495,4 +495,22 @@ krov.forEach((krov) => {
 // });
 
 
+const openModal = document.getElementById("openModal");
+const closeModal = document.getElementById("closeModal")
+const modal = document.getElementById("modal");
+const overlay = document.getElementById("overlay");
 
+openModal.addEventListener("click" , () => {
+    metal.style.display = "block";
+    overlay.style.display = "block";
+});
+
+closeModal.addEventListener("click" , () =>{
+modal.style.display = "none";
+overlay.style.dispay = "none";
+});
+
+overlay.addEventListener("click", () => {
+    modal.style.display = "none";
+    overlay.style.dispay = "none";  
+})
